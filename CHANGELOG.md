@@ -1,3 +1,10 @@
+Changes in cookbook verison 0.0.12
+==================================
+Added Berksfile
+Added Vagrantfile
+Added test-kitchen support
+Update metadata
+
 Changes in cookbook version 0.0.10
 ==================================
 
