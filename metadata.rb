@@ -1,3 +1,4 @@
+name 		 "ldapknife"
 maintainer       "Gerald L. Hevener, Jr, M.S., Marshall University"
 maintainer_email "hevenerg@marshall.edu"
 license          "Apache 2.0"
