@@ -17,10 +17,10 @@
 # limitations under the License.
 #
 include_recipe "perl"
-include_recipe "yumrepo::epel"
 
 case node['platform']
   when "redhat","centos","scientific","amazon"
+    include_recipe "yumrepo::epel"
     %w{perl-IPC-Run perl-version openldap-clients}.each do |perlpkg|
       package perlpkg
     end
