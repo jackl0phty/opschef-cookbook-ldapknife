@@ -6,11 +6,11 @@
     "ldapknife": {
       "locked_version": "0.0.10"
     },
-    "yumrepo": {
-      "locked_version": "0.16.6"
-    },
     "yum": {
       "locked_version": "2.3.0"
+    },
+    "yumrepo": {
+      "locked_version": "0.16.6"
     }
   }
 }

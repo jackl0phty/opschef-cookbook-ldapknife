@@ -18,15 +18,15 @@
 #
 include_recipe "perl"
 
-case node['platform']
-  when "redhat","centos","scientific","amazon"
-    include_recipe "yumrepo::epel"
-    %w{perl-IPC-Run perl-version openldap-clients}.each do |perlpkg|
+case node['platform_family']
+  when "rhel"
+    include_recipe "yum::epel"
+    %w{ perl-IPC-Run perl-version openldap-clients }.each do |perlpkg|
       package perlpkg
     end
       cpan_module "Getopt::Declare" 
-  when "debian","ubuntu","linuxmint"
-    %w{libgetopt-declare-perl libipc-run-perl libperl-version-perl ldap-utils}.each do |perlpkg|
+  when "debian"
+    %w{ libgetopt-declare-perl libipc-run-perl libperl-version-perl ldap-utils }.each do |perlpkg|
       package perlpkg
     end
 end

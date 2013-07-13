@@ -1,3 +1,14 @@
+Changes in cookbook version 0.0.18
+==================================
+Remove Berksfile.lock
+
+Changes in cookbook version 0.0.18
+==================================
+Remove yumrepo from Berksfile
+Add yum to Berksfile
+Add chefspec tests.
+Update CHANGELOG.md
+
 Changes in cookbook verison 0.0.12
 ==================================
 Added Berksfile
