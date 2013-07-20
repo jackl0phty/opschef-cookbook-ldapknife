@@ -1,3 +1,7 @@
+Changes in cookbook version 0.0.20
+==================================
+Fix Gemfile so test-kitchen will work
+
 Changes in cookbook version 0.0.18
 ==================================
 Remove Berksfile.lock

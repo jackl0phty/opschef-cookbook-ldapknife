@@ -1,0 +1,4 @@
+cookbook 'minitest-handler', :path => '/home/hitman/pr/minitest-handler'
+cookbook 'minitest-handler_test1', :path => 'test/cookbooks/minitest-handler_test1'
+cookbook 'minitest-handler_test2', :path => 'test/cookbooks/minitest-handler_test2'
+cookbook 'chef_handler', :locked_version => '1.0.6'

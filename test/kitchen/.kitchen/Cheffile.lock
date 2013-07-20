@@ -1,0 +1,43 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apt (2.0.0)
+    build-essential (1.4.0)
+    chef_handler (1.1.4)
+    dmg (1.1.0)
+    git (2.5.2)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 1.0)
+      windows (>= 0.0.0)
+      yum (>= 0.0.0)
+    minitest-handler (0.2.1)
+      chef_handler (>= 0.0.0)
+    perl (1.1.2)
+    runit (1.1.6)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    windows (1.10.0)
+      chef_handler (>= 0.0.0)
+    yum (2.3.0)
+
+PATH
+  remote: /home/gerald/projects/github/jackl0phtyorg/cookbooks/ldapknife/test/kitchen/.kitchen/cookbook_under_test
+  specs:
+    ldapknife (0.0.20)
+      perl (>= 0.0.0)
+      yum (>= 0.0.0)
+
+PATH
+  remote: /usr/local/rvm/gems/ruby-1.9.3-p448/gems/test-kitchen-0.7.0/cookbooks/test-kitchen
+  specs:
+    test-kitchen (1.0.0)
+      apt (>= 0.0.0)
+      git (>= 0.0.0)
+      yum (>= 0.0.0)
+
+DEPENDENCIES
+  ldapknife (>= 0)
+  minitest-handler (>= 0)
+  test-kitchen (>= 0)
+
